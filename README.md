@@ -48,24 +48,27 @@ EduBot-AI/
 └── .gitignore
 ```
 
-System Workflow (Flowchart)
+
+### 🧠 System Workflow (Flowchart)
+
 This flowchart outlines the step-by-step process followed by the EduBot-AI application, from input to output using Azure AI services.
 
 ```mermaid
 graph TD
-    A[Start: Upload File] --> B[Extract Text with OCR]
-    B --> C{Choose Operation}
-    C -->|Summarize| D[Run Azure Summarizer]
-    C -->|Translate| E[Run Azure Translator]
-    C -->|TTS| F[Run Text-to-Speech]
-    C -->|Q&A| G[Run Azure QnA Maker]
-    D --> H[Show Output]
+    A[Start: Upload File or Enter Text] --> B[If Image: Run OCR]
+    B --> C{Select Operation}
+    C -->|Summarize| D[Azure Summarizer]
+    C -->|Translate| E[Azure Translator]
+    C -->|Text-to-Speech| F[Azure TTS]
+    C -->|Q&A| G[Azure QnA]
+    D --> H[Display Output]
     E --> H
     F --> H
     G --> H
-    H --> I[Option to Download/Listen]
+    H --> I[Option: Listen / Download Result]
     I --> J[End]
 ```
+
 
 ---
 🧩 Technologies Used
