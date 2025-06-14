@@ -47,7 +47,7 @@ EduBot-AI/
 ├── assets/                    # Static assets and sample images
 └── .gitignore
 
-
+\`\`\
 
 🧩 Technologies Used
 Microsoft Azure AI – Vision, Language, Speech, Translation
