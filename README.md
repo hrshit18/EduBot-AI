@@ -16,16 +16,19 @@
 - 🎛️ **Clean UI:** Easy-to-use interface for all age groups, powered by Streamlit.
 
 ---
-
 ## 🧠 System Workflow
 
-```mermaid
-graph TD
-    A[Start: Upload Image or Text] --> B[Extract Text via OCR (if image)]
-    B --> C[Choose Operation: Summarize / Translate / TTS / Q&A]
-    C --> D[Process with Azure AI Services]
-    D --> E[Display Results in Interface]
-    E --> F[Optional: Listen or Download Output]
+1. **Start:** User uploads an image or text.
+2. **OCR (if image):** Text is extracted using Azure Vision OCR.
+3. **Choose Operation:**
+   - Summarize
+   - Translate
+   - Text-to-Speech (TTS)
+   - Question Generation
+4. **Processing:** Azure AI services process the selected operation.
+5. **Results:** Outputs are displayed on the interface.
+6. **Optional:** User can listen to or download the result.
+
 
 git clone https://github.com/your-username/EduBot-AI.git
 cd EduBot-AI
