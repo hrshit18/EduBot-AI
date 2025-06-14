@@ -46,9 +46,9 @@ EduBot-AI/
 │   └── qna.py                 # Question generation module
 ├── assets/                    # Static assets and sample images
 └── .gitignore
+```
 
-\`\`\
-
+---
 🧩 Technologies Used
 Microsoft Azure AI – Vision, Language, Speech, Translation
 
@@ -60,7 +60,7 @@ OpenAI / Hugging Face Transformers – (for optional model tuning)
 
 OCR / NLP / TTS / Q&A – AI capabilities used
 
-
+---
 
 ❗ Troubleshooting
 🔑 Azure API Key Issues
@@ -80,20 +80,23 @@ Confirm your subscription level includes access to the required Azure AI service
 
 Ensure stable internet connectivity and that you're not exceeding rate limits or quotas.
 
-
+---
 
 🤝 Contributing
 You’re welcome to fork this repository and contribute!
 Feel free to open issues or pull requests for improvements or new features.
 
+---
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
+---
 
 ✨ Acknowledgment
 This project was developed as part of the Generative AI Internship by Edunet Foundation in collaboration with Microsoft.
 It reflects learnings from beginner to advanced modules in AI, vision, translation, and responsible AI practices.
+---
 
 📌 Author
 Harshit Gupta
