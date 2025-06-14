@@ -30,13 +30,6 @@
 6. **Optional:** User can listen to or download the result.
 
 
-git clone https://github.com/your-username/EduBot-AI.git
-cd EduBot-AI
-
-pip install -r requirements.txt
-
-streamlit run app.py
-
 EduBot-AI/
 │
 ├── app.py                     # Main Streamlit app
@@ -50,6 +43,8 @@ EduBot-AI/
 │   └── qna.py                 # Question generation module
 ├── assets/                    # Static assets and sample images
 └── .gitignore
+
+
 🧩 Technologies Used
 Microsoft Azure AI – Vision, Language, Speech, Translation
 
@@ -61,25 +56,36 @@ OpenAI / Hugging Face Transformers – (for optional model tuning)
 
 OCR / NLP / TTS / Q&A – AI capabilities used
 
+
+
 ❗ Troubleshooting
-Azure API Key Issues:
+🔑 Azure API Key Issues
+Ensure that your Azure API keys are correctly set in your environment variables or configuration file.
 
-Ensure you have valid Azure keys set in environment variables or configuration.
+Verify that the keys correspond to an active subscription and correct Azure region.
 
-Streamlit Not Starting:
+🚫 Streamlit Not Launching
+Make sure your virtual environment is activated before running the app.
 
-Ensure your virtual environment is active and dependencies are installed.
+Run pip install -r requirements.txt to ensure all dependencies are installed.
 
-Model or API Errors:
+⚠️ Model or API Failures
+Double-check your Azure service endpoint URLs and resource names.
 
-Double-check Azure region settings, endpoint URLs, and correct subscription level.
+Confirm your subscription level includes access to the required Azure AI services.
+
+Ensure stable internet connectivity and that you're not exceeding rate limits or quotas.
+
+
 
 🤝 Contributing
 You’re welcome to fork this repository and contribute!
 Feel free to open issues or pull requests for improvements or new features.
 
+
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
 
 ✨ Acknowledgment
 This project was developed as part of the Generative AI Internship by Edunet Foundation in collaboration with Microsoft.
