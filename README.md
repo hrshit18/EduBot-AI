@@ -47,6 +47,10 @@ EduBot-AI/
 ├── assets/                    # Static assets and sample images
 └── .gitignore
 ```
+
+System Workflow (Flowchart)
+This flowchart outlines the step-by-step process followed by the EduBot-AI application, from input to output using Azure AI services.
+
 ```mermaid
 graph TD
     A[Start: Upload File] --> B[Extract Text with OCR]
