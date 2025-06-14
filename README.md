@@ -88,17 +88,7 @@ B.Tech Mechanical Engineering | Kamla Nehru Institute of Technology, Sultanpur
 Email: harshitgupta.knit@gmail.com
 
 
----
 
-### ✅ What to Do Now:
-
-1. Open your GitHub repo.
-2. Click the `README.md` file.
-3. Click the ✏️ pencil icon to edit.
-4. Paste the entire content above.
-5. Scroll down and **Commit changes**.
-
-Let me know if you want a **project banner**, **demo GIF**, or **custom badges** next!
 
 
 
