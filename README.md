@@ -47,6 +47,21 @@ EduBot-AI/
 ├── assets/                    # Static assets and sample images
 └── .gitignore
 ```
+```mermaid
+graph TD
+    A[Start: Upload File] --> B[Extract Text with OCR]
+    B --> C{Choose Operation}
+    C -->|Summarize| D[Run Azure Summarizer]
+    C -->|Translate| E[Run Azure Translator]
+    C -->|TTS| F[Run Text-to-Speech]
+    C -->|Q&A| G[Run Azure QnA Maker]
+    D --> H[Show Output]
+    E --> H
+    F --> H
+    G --> H
+    H --> I[Option to Download/Listen]
+    I --> J[End]
+```
 
 ---
 🧩 Technologies Used
