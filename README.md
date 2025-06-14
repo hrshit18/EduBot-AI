@@ -30,6 +30,9 @@
 6. **Optional:** User can listen to or download the result.
 
 
+## 📁 Project Structure
+
+```plaintext
 EduBot-AI/
 │
 ├── app.py                     # Main Streamlit app
@@ -43,6 +46,7 @@ EduBot-AI/
 │   └── qna.py                 # Question generation module
 ├── assets/                    # Static assets and sample images
 └── .gitignore
+
 
 
 🧩 Technologies Used
